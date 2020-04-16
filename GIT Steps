@@ -6,7 +6,8 @@ Step-3  :   go to clone or download button (green-color) shon in the website
 Step-4  :   copy the url when you click the button
 Step-5  :   go to respective folder where you want to copy your files
 Step-6  :   open command-window and type "git clone {pathName}" and the path name (pathName is the url that you copied)
-Step-7  :   go to the copied folder and do your code.....
+Step-7  :   go to the copied folder and copy your codee there.
+Step-7  :  or go to the copied folder and do your code if not done
 Step-8  :   do "git status" where you will see code changes that you have made in "red color"
 Step-9  :   do "git add ."  to add all the files or else do "git add <fileName>"
 Step-10 :   do "git status" to check the files which are added will appear as green colour
