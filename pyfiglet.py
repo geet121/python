@@ -1,4 +1,4 @@
-from pyfiglet import figlet_format
+from pyfiglet.py import figlet_format
 from termcolor import colored
 
 def print_art(msg, color):

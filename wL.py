@@ -27,10 +27,10 @@ for num in range(1,11):
         count += 1
     print(smileys)
 """
-while True:
-    command = input("Type 'exit'  to exit:")
-    if(command== "exit"):
-        break
+#while True:
+#    command = input("Type 'exit'  to exit:")
+#   if(command== "exit"):
+#        break
 
 for x in range(1,101):
     print(x)
