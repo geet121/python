@@ -8,6 +8,7 @@ random.shuffle(random_value)
 player = ["player1", "player2", "player3", "player4"]
 
 afterShuffle = {key: value for key, value in zip(random_value, player)}
+print(f"afterShuffle={afterShuffle}")
 
 
 def get_Player_Value(matchkey):
