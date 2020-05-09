@@ -2,11 +2,10 @@ import random
 print("Raja...Mantri..Chor..Police")
 
 random_value = ["Raja", "Mantri", "Chor", "Police"]
-chor = ["Chor"]
-raja_mantri = ["Raja", "Mantri"]
+
 random.shuffle(random_value)
 player = ["player1", "player2", "player3", "player4"]
-
+random.shuffle(player)
 afterShuffle = {key: value for key, value in zip(random_value, player)}
 print(f"afterShuffle={afterShuffle}")
 
@@ -29,10 +28,12 @@ print(f"{raja} is Raja: Chor ka pata lagao")
 print(f"{mantri} is Mantri: ji Janab!!")
 
 
-def filterByKey(keys): return {x: afterShuffle[x] for x in keys}
+def filterByKey(keys): 
+    return {x: afterShuffle[x] for x in keys}
 
-
+chor = ["Chor"]
 getChor = filterByKey(chor)
+print(getChor)
 
 
 def get_Player_key(val):

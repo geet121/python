@@ -1,10 +1,11 @@
-"""
+
 msg = input("What's you name?")
-while msg!= "geetika":
+while msg != "geetika":
     print("wrong")
     msg = input("What's you name?")
 print("correct")
 
+"""
 num = 1
 while num< 11:
     print(num)
@@ -32,11 +33,11 @@ for num in range(1,11):
 #   if(command== "exit"):
 #        break
 
-for x in range(1,101):
+""" for x in range(1,101):
     print(x)
     if x == 3:
         break
-
+ """
 
 
 

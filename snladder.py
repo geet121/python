@@ -50,6 +50,19 @@ while (Dice != "q" ):
                         print("OK! Well Played")
                         break
                     
-    """ else:
+    else:
         print("Oops! Something went wrong")
-        break """
+        break
+
+if (position_Player1 == 2,3,6,8,9,11,12,17,21,22,24,28,32,33,36,42,50,54,63,80,88):
+    print("yyeeaaa climb the ladder")
+    increased_position = random.randint(10,48)
+    position_Player1 =("Increased position", increased_position)
+    dice = input("Hurray!! You got another change to roll: ")
+    dice_again = random.randint(1,6)
+    newPosition = position_Player1  + increased_position + dice_again
+    print ("P1_position: ",newPosition)
+        
+else:
+    print(position_Player1)
+

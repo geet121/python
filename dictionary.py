@@ -40,4 +40,11 @@ while i >= 0:
 
 #Sets
 string = "hello"
-{char for char in string if char in 'aeiou'}
+a ={char for char in string if char not in 'aeiou'}
+print(a)
+"""dict = { key: key * 10 for key in range(0, 100) }
+d1 = {}
+for key, value in dict.items():
+    if key % 2 == 0:
+        d1[key] = value
+    print(d1)"""

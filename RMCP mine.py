@@ -99,9 +99,3 @@ elif r_num == 3:
 else:
     player1 = "Chor  """
 
-dict = { key: key * 10 for key in range(0, 100) }
-d1 = {}
-for key, value in dict.items():
-    if key % 2 == 0:
-        d1[key] = value
-    print(key)
