@@ -19,7 +19,7 @@ def ladder2 (position_Player2):
         return newPosition
     else:
         print(diceValue)
-
+ladder2 (position_Player2)
 
 def ladder1 (position_Player1,newPosition):
     if (position_Player1 == 2,3,6,8,9,11,12,17,21,22,24,28,32,33,36,42,50,54,63,80,88):
@@ -87,6 +87,4 @@ if gameBegin=='y':
 else:
     print("OK! but you must try once")
     
-
-
 

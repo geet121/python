@@ -1,4 +1,4 @@
-from random import random
+"""from random import random
 def flip_coin():
     r = random()
     if r > 0.5:
@@ -16,9 +16,15 @@ def sum_all_nums(*args):
         total += num
     print(total)
 
-sum_all_nums(1,30,6,2,14)
+sum_all_nums(1,30,6,2,14)"""
 
+def ensure_info(*agrs):
+    if "Colt" in agrs and "Cat" in agrs:
+        return "Welcome Colt!"
+    return "Not Sure who you are"
+print(ensure_info(1,True,"rat","Colt","Cat"))
 
+"""
 #lambda #map #filter
 l = [1,2,3,4]
 doubles = list(map(lambda x:x*2,l))
@@ -104,11 +110,11 @@ print(a)
 print(list(reversed('hello')))
 #Debugging
 #try and expect
-""" try:
+try:
     foobar
 except:
     print('PROBLEM')
-print("after the try") """
+print("after the try")
 
 
 def get(d,key):
@@ -119,5 +125,23 @@ def get(d,key):
 d = {"name":"Rishi"}
 print(get(d,"name"))
 
+def sum_of_numbers(numbers):
+    total = 0
+    for num in numbers:
+        if num % 2 != 0:
+            total += num
+            #return total
+    return total
+#mistake is return is inside the loop and that ends exection of the loop instead it shold be outdented so that the loop continues to run and finishesonly after the loop is done return total
 
+print(sum_of_numbers([1,2,3,4,5,6,7]))
 
+def exponent(num,power):
+    return num ** power
+print(exponent(2,3))
+print(exponent(3,3))
+
+def exponent(num,power=2):
+    return num ** power
+print(exponent(2,3))
+print(exponent(7))"""
